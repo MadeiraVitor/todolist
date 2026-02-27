@@ -38,10 +38,10 @@ body {
 
 @layer base {
     .theme-light {
-        @apply bg-[url('../src/assets/images/bg-desktop-light.jpg')] bg-cover bg-no-repeat bg-center h-80;
+        @apply bg-[url('/images/bg-desktop-light.jpg')] bg-cover bg-no-repeat bg-center h-80;
     }
 
     .theme-dark {
-        @apply bg-[url('../src/assets/images/bg-desktop-dark.jpg')] bg-cover bg-no-repeat bg-center h-80;
+        @apply bg-[url('/images/bg-desktop-dark.jpg')] bg-cover bg-no-repeat bg-center h-80;
     }
 }
